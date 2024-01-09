@@ -10,34 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use and Learn',
+    title: 'とっても簡単に使えます',
     Svg: require('@site/static/img/undraw_maker_launch.svg').default,
     description: (
       <>
-        OML Vision was designed with ease of use in mind for all members of the project team and for users 
-        who are familiar with document based tools to transition
-        to Model Based Systems Engineering (MBSE).
+         OML Vision は、プロジェクトチームのすべての人や、ドキュメントベースのツールからModel Based Systems Engineering (MBSE)への移行を考えている人のために設計されています。
       </>
     ),
   },
   {
-    title: 'Sponsored by openCAESAR',
+    title: 'openCAESARがスポンサーです',
     Svg: require('@site/static/img/undraw_teaching.svg').default,
     description: (
       <>
-        OML Vision falls under the openCAESAR product line.  openCAESAR is a ontological modeling and 
-        analysis platform that implements the Ontological Modeling Language (OML), and supports 
-        an agile DevOps approach to system modeling and analysis.
+        OML Vision は openCAESAR のプロダクトラインの1つです。openCAESAR は オントロジーに基づいたモデリングと分析のためのプラットフォームです。 Ontological Modeling Language (OML)言語を使って、システムのモデリングと分析おいて、アジャイルなDevOps開発手法の導入をサポートします。
       </>
     ),
   },
   {
-    title: 'Powered by React TSX and VSCode',
+    title: 'React TSX と VSCode',
     Svg: require('@site/static/img/undraw_react.svg').default,
     description: (
       <>
-        OML Vision is a Visual Studio Code extension that is built using React and Typescript. This allows type safety,
-        improved collaboration, and enhanced code maintainability throughout the lifecycle of the project.
+        OML Vision は Visual Studio Code のエクステンション（拡張機能）です。 React と Typescript を使用しています。これにより、プロジェクトのライフサイクルを通じて、「type safety」（型安全）の確保や、コラボレーションの改善、コードの保守性を向上します。
       </>
     ),
   },
